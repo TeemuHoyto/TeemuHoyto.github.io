@@ -58,7 +58,10 @@ a {
     color: #0bc8f4;
     text-decoration: none;
     position: relative;
+}
 
+p {
+    line-height: 1.5;
 }
 
 .info {
