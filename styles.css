@@ -47,11 +47,48 @@ ul {
 
 li {
     margin-bottom: 1rem;
+    color: #f8f207;
+}
+
+li span {
+    color: #fff;
 }
 
 a {
     color: #0bc8f4;
     text-decoration: none;
+    position: relative;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sub-text {
+    margin-top: -2rem;
+}
+
+a::after {
+    content: '';
+    border-bottom: 1px solid #0bc8f4;
+    top: 1.4rem;
+    position: absolute;
+    width: 100%;
+    display: block;
+    left: 0;
+
+}
+
+a:hover:after {
+    color: #f8f207;
+    border-bottom: 1px solid #f8f207;
+    opacity: .8;
+}
+
+a:hover {
+    color: #f8f207;
+    opacity: .8;
 }
 
 .card {
@@ -70,9 +107,11 @@ a {
         padding: 2rem;
         box-sizing: border-box;
     }
-
+    .col-8 {
+        width: 75%;
+        margin: auto;
+    }
     .col-12 {
         width: 100%;
-
     }
 }
