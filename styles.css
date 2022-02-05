@@ -107,10 +107,13 @@ a:hover {
         padding: 2rem;
         box-sizing: border-box;
     }
+
     .col-8 {
         width: 75%;
-        margin: auto;
+        margin: 3rem auto;
+
     }
+
     .col-12 {
         width: 100%;
     }
