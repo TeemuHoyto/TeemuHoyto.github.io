@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Teemu höytö Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="portfolio">
+    <div class="container">
+        <div class="row">
+            <h1 class="col-12">Portfolio of Teemu Höytö</h1>
+            <div class="col-6">
+
+                <h2>Vue apps</h2>
+
+                <div class="card">
+                    <h3>Sympa careers:</h3>
+                    <a href="https://www.sympa.com/about/careers/" rel="noreferrer" target="blank">Sympa careers</a>
+                    <ul>
+                        <li>This app gets its data from recruitee <a href="https://sympa.recruitee.com/api/offers/"
+                                rel="noreferrer" target="blank">api</a>.</li>
+                        <li>All data management is handelled with Vue.js</li>
+                        <li>Vue router is used to create a URL for every spesific posting.</li>
+                        <li>Social media shares share the URL of the specific job.</li>
+                        <li>Job ids are derived from recruitee api.</li>
+                        <li>If job is no longer available the link vill open a popup stating that to the user.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Sympa marketplace:</h3>
+                    <a href="https://marketplace.sympa.com/#/" rel="noreferrer" target="blank">Sympa marketplace</a>
+                    <ul>
+                        <li>Vue app + Vue router</li>
+                        <li>This is a Woocommerce site and Vue is used to display the products on this page. Vue router
+                            adds URL:s to selections that marketing can give to clients and use as a sales tool.</li>
+                        <li>Vue router uses history mode and back button allows user to see previous "page" and it will
+                            not exit the app.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Sympa events and webinars:</h3>
+                    <a href="https://www.sympa.com/insights/events-and-webinars/" rel="noreferrer" target="blank">Sympa
+                        events and
+                        webinars</a>
+                    <ul>
+                        <li>This simple vue app gets all CPT Events and webinars posts from all languages.</li>
+                        <li>All data management is handelled with Vue.js</li>
+                        <li>Posts can be filterred by category and by language.</li>
+                        <li>App checks the lang of of the website and gets the posts of that language first.</li>
+                        <li>New routes have been added in to the wp rest api for Events and webinars postype.</li>
+                        <li>Images and ACF field have been added to the rest api to be used in front end.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Visual components Resources:</h3>
+                    <a href="https://www.visualcomponents.com/resources/#/" rel="noreferrer" target="blank">Visual
+                        components Resources</a>
+                    <ul>
+                        <li>VIsual components Resources combines a blog with case studies, ebooks, events and webinars.
+                        </li>
+                        <li>all data is managed with vue.js</li>
+                        <li>Vue router adds main categories as links that are used in the mega menu navigation and sent
+                            to possible clients as sales material.</li>
+                        <li>Events and webinars are displayed differently than other posts. Backend magic checks dates
+                            of events and webinars and determins their status as future or past events.</li>
+                        <li>Rest api has been expanded with featured image and ACF field. Only reguired fields are
+                            optained from the rest api.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <h2>Sites</h2>
+                <div class="card">
+                    <h3>Utuliini:</h3>
+                    <a href="https://utuliini.fi" rel="noreferrer" target="blank">Utuliini</a>
+                    <ul>
+                        <li>VIsual components Resources combines a blog with case studies, ebooks, events and webinars.
+                        </li>
+                        <li>all data is managed with vue.js</li>
+                        <li>Vue router adds main categories as links that are used in the mega menu navigation and sent
+                            to possible clients as sales material.</li>
+                        <li>Events and webinars are displayed differently than other posts. Backend magic checks dates
+                            of events and webinars and determins their status as future or past events.</li>
+                        <li>Rest api has been expanded with featured image and ACF field. Only reguired fields are
+                            optained from the rest api.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
