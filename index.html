@@ -13,29 +13,27 @@
     <meta name="robots" content="noindex" />
 </head>
 
-<! --                                       Hello human :)
-    I hope this message finds you and that you are well and happy. If you wish to see this amazing and
-                 glorious portfolio in its home you must visit the github link below.
-                        https://github.com/TeemuHoyto/TeemuHoyto.github.io
-                    
-                            I will finnish this with an epic song.
-                                    If I had a pony I would
-                            bite it, If I had a pony I would ride it, 
-            if I had a pony I would give it some carrot and take it around the lake.
+<script src="fetch_template_part.js"></script>
+
+<! -- Hello human :) I hope this message finds you and that you are well and happy. If you wish to see this amazing and
+    glorious portfolio in its home you must visit the github link below.
+    https://github.com/TeemuHoyto/TeemuHoyto.github.io I will finnish this with an epic song. If I had a pony I would
+    bite it, If I had a pony I would ride it, if I had a pony I would give it some carrot and take it around the lake.
     --->
 
     <body class="portfolio">
         <div class="container">
             <div class="row">
                 <h1 class="col-12">Portfolio of Teemu Höytö</h1>
-                <p class="text-center col-12 sub-text"><small>Teemu and his skills are MIGHT be available for hire</small></p>
+                <p class="text-center col-12 sub-text"><small>Teemu and his skills are MIGHT be available for
+                        hire</small></p>
                 <div class="col-12 info">
                     <p>Hello, <br><br>
                         I'm currently employed at <a href="https://redandblue.fi/" target="_blank"
-                        rel="noopener noreferrer">RedandBlue</a>.<br><br>
-                         Previous employer was  <a href="https://www.paperplanes.fi/" target="_blank"
-                            rel="noopener noreferrer">Paperplanes</a> and was there for 3 years. 
-                            <br><br>I do web development with WP, PHP, JS, SCSS
+                            rel="noopener noreferrer">RedandBlue</a>.<br><br>
+                        Previous employer was <a href="https://www.paperplanes.fi/" target="_blank"
+                            rel="noopener noreferrer">Paperplanes</a> and was there for 3 years.
+                        <br><br>I do web development with WP, PHP, JS, SCSS
                         and
                         Vue.js. Git is one of my close friends and I seek more
                         acquaintances as I move towards my inevitable demise. If you have any questions or wish to know
@@ -64,7 +62,9 @@
                     <h2>Vue apps</h2>
 
                     <div class="card">
-                        <link rel="import" href="vue_apps/sympa_careers.html">
+                        <script>
+                            fetchTemplatePart('sympa_careers');
+                        </script>
                     </div>
 
                     <div class="card">
@@ -134,7 +134,8 @@
                             <li><span>This online blog/magazine is mostly a single Vue app that runs on all of the pages
                                     to
                                     display post by category.</span></li>
-                            <li><span>There are "What did you think of this article" buttons at the bottom of each post. They
+                            <li><span>There are "What did you think of this article" buttons at the bottom of each post.
+                                    They
                                     add
                                     each click to the database and in WP dashboard the user can see the data.</span>
                             </li>
@@ -171,7 +172,8 @@
                                 </span></li>
                             <li><span>On the front page there is a green circle that has logos on it. This vanilla JS /
                                     Scss
-                                    app has logos that are clickable and data on the right side of the screen changes.</span>
+                                    app has logos that are clickable and data on the right side of the screen
+                                    changes.</span>
                             </li>
                             <li><span>Customer required also a <a href="https://developer.kekoecosystem.com/"
                                         rel="noreferrer" target="blank">developer site</a> for their ecosystem.</span>
