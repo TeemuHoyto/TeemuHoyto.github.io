@@ -2,9 +2,11 @@
 <a href="https://vuodenhuiput.fi/" rel="noreferrer" target="blank">vuodenhuiput</a>
 <ul>
   <li><span>User can login with Grafia sites login and password.</span></li>
-  <li><span>A Vue app has a login form and the data is sanitized before it is send to a rest endpoint.</span></li>
-  <li><span>The password is encrypted and a call is generated to a secure api that wants api key and the login
-      data.</span></li>
-  <li><span>If the check passes Grafia site returns users Gruppo ID and name.</span></li>
+  <li><span>The integration fetches login data from Grafia site and generates a user to Vuoden huiput.</span></li>
+  <li><span>Integration incorporates Vue app that has a login form. As the user fills the form and submits it the data
+      is sanitized and it is send to a rest endpoint.</span></li>
+  <li><span>The password is encrypted in the wp rest endpoint and a call is generated to a secure api that wants api key
+      and the login data.</span></li>
+  <li><span>If the checks passes the Grafia site returns users Gruppo ID and name.</span></li>
   <li><span>After succesfull api call user can add a password and use the vuodenhuiput site.</span></li>
 </ul>
