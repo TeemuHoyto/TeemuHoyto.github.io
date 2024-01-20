@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 768px) {
     .container {
-        width: 1400px !important;
+        width: 1400px;
         margin: auto;
     }
 }
@@ -30,6 +30,7 @@
 h1 {
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -50,7 +51,6 @@ ul {
 
 li {
     margin-bottom: 1rem;
-    width: 100%!important;
     color: #f8f207;
 }
 
@@ -70,6 +70,10 @@ p {
 
 .info {
     padding: 2rem 2rem;
+
+    @media only screen and (min-width: 768px) {
+        max-width: 65%;
+    }
 }
 
 .text-center {
