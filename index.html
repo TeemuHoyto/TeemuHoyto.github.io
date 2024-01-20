@@ -17,19 +17,33 @@
 
 <! -- Hello human :) I hope this message finds you and that you are well and happy. If you wish to see this amazing and
     glorious portfolio in its home you must visit the github link below.
-    https://github.com/hoytoteemu/hoytoteemu.github.io I will finnish this with an epic song. If I had a pony I would
-    bite it, If I had a pony I would ride it, if I had a pony I would give it some carrot and take it around the lake.
+    https://github.com/hoytoteemu/hoytoteemu.github.io
+    
+    I will finnish this with an epic song. If I had a pony I would
+    bite it, If I had a pony I would ride it, if I had a pony I would give it some carrot and take it around the lake pumb pumb.
     --->
 
     <body class="portfolio">
         <div class="container">
             <div class="row">
-                <h1 class="col-12">Portfolio of Teemu Höytö</h1>
-                <p class="text-center col-12 sub-text"><small>Teemu and his skills MIGHT be available for
-                        hire</small></p>
                 <div id="general_info" class="col-12 info"></div>
                 <div class="col-6">
+                    <h2>Integrations</h2>
+                    <div id="vuodenhuiput_grafia" class="card"></div>
+                    <div id="gruppo_integraatio" class="card"></div>
+                    <div id="ruokatieto_kilta" class="card"></div>
+                    <div id="skvl_int" class="card"></div>
+
                     <h2>Vue apps</h2>
+                    <div id="general_info" class="card"></div>
+                    <div id="kansikone" class="card"></div>
+                    <div id="finnfund" class="card"></div>
+                    <div id="vuodenhuiput" class="card"></div>
+                    <div id="hollola" class="card"></div>
+                    <div id="grafia" class="card"></div>
+                    <div id="ruokatieto" class="card"></div>
+                    <div id="voitas" class="card"></div>
+                    <div id="skvl_realtor" class="card"></div>
                     <div id="sympa_careers" class="card"></div>
                     <div id="sympa_marketplace" class="card"></div>
                     <div id="sympa_events_webinars" class="card"></div>
@@ -39,6 +53,16 @@
                 <div class="col-6">
                     <h2>Sites</h2>
                     <div id="utuliini" class="card"></div>
+                    <div id="kansikuvakone" class="card"></div>
+                    <div id="finnfund" class="card"></div>
+                    <div id="vuodenhuiput" class="card"></div>
+                    <div id="grafia" class="card"></div>
+                    <div id="hollola" class="card"></div>
+                    <div id="voitas" class="card"></div>
+                    <div id="migri" class="card"></div>
+                    <div id="ruokatieto" class="card"></div>
+                    <div id="skvl_intra" class="card"></div>
+                    <div id="skvl" class="card"></div>
                     <div id="keko_ecosystem" class="card"></div>
                     <div id="newilbau" class="card"></div>
                     <div id="visual_components" class="card"></div>
@@ -60,7 +84,22 @@
              // General info
             fetchTemplatePart('general_info', 'info');
 
+            // Integrations
+            fetchTemplatePart('vuodenhuiput_grafia', 'integrations');
+            fetchTemplatePart('gruppo_integraatio', 'integrations');
+            fetchTemplatePart('ruokatieto_kilta', 'integrations');
+            fetchTemplatePart('skvl_int', 'integrations');
+
             // Vue apps
+            fetchTemplatePart('general_info', 'vue_apps');
+            //fetchTemplatePart('kansikone', 'vue_apps');
+            //fetchTemplatePart('finnfund', 'vue_apps');
+            fetchTemplatePart('hollola', 'vue_apps');
+            fetchTemplatePart('ruokatieto', 'vue_apps');
+            fetchTemplatePart('vuodenhuiput', 'vue_apps');
+            fetchTemplatePart('grafia', 'vue_apps');
+            fetchTemplatePart('voitas', 'vue_apps');
+            fetchTemplatePart('skvl_realtor', 'vue_apps');
             fetchTemplatePart('sympa_careers', 'vue_apps');
             fetchTemplatePart('sympa_marketplace', 'vue_apps');
             fetchTemplatePart('sympa_events_webinars', 'vue_apps');
@@ -69,6 +108,16 @@
 
             // Sites
             fetchTemplatePart('utuliini', 'sites');
+            //fetchTemplatePart('kansikuvakone', 'sites');
+            //fetchTemplatePart('finnfund', 'sites');
+            fetchTemplatePart('vuodenhuiput', 'sites');
+            fetchTemplatePart('grafia', 'sites');
+            fetchTemplatePart('hollola', 'sites');
+            fetchTemplatePart('voitas', 'sites');
+            fetchTemplatePart('migri', 'sites');
+            fetchTemplatePart('ruokatieto', 'sites');
+            fetchTemplatePart('skvl_intra', 'sites');
+            fetchTemplatePart('skvl', 'sites');
             fetchTemplatePart('keko_ecosystem', 'sites');
             fetchTemplatePart('newilbau', 'sites');
             fetchTemplatePart('visual_components', 'sites');
