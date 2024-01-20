@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
-body {
-    font-size: 16px;
-}
-
 .portfolio {
     font-size: 1rem;
     color: #fff;
@@ -14,7 +10,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     .container {
-        max-width: 1400px;
+        width: 1400px;
         margin: auto;
     }
 }
