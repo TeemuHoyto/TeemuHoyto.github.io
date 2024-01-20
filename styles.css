@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 768px) {
     .container {
-        width: 1400px!important;
+        width: 1400px !important;
         margin: auto;
     }
 }
@@ -44,10 +44,13 @@ h3 {
 
 ul {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
     margin-bottom: 1rem;
+    width: 100%;
     color: #f8f207;
 }
 
