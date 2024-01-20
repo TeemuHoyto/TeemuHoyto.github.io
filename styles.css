@@ -50,7 +50,7 @@ ul {
 
 li {
     margin-bottom: 1rem;
-    width: 100%;
+    width: 100%!important;
     color: #f8f207;
 }
 
