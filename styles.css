@@ -5,15 +5,16 @@ body {
 }
 
 .portfolio {
+    font-size: 1rem;
     color: #fff;
     background-color: #000;
     font-family: 'Source Code Pro', monospace;
     margin-top: 3rem;
 }
 
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 768px) {
     .container {
-        max-width: 90rem;
+        max-width: 1400px;
         margin: auto;
     }
 }
@@ -23,7 +24,7 @@ body {
     flex-direction: column;
 }
 
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 768px) {
     .row {
         flex-direction: row;
         flex-wrap: wrap;
@@ -112,7 +113,7 @@ a:hover {
     margin: auto;
 }
 
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 768px) {
 
     .col-6 {
         width: 50%;
