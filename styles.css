@@ -49,6 +49,11 @@ ul {
     flex-direction: column;
 }
 
+.no-top {
+    margin-top: 0;
+    padding-top: 0;
+}
+
 li {
     margin-bottom: 1rem;
     color: #f8f207;
